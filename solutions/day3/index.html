@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      }
+      body {background: #f0f1f7;}
+      .sub{
+        background-color: #c2e6f4;
+        border-radius: 5px;
+        width: 95%;
+        margin: 100px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 30px 0;
+      }
+      .sub .sub-title {
+        letter-spacing: 1.2px;
+        font-weight: 400;
+      }
+      .sub p {
+        font-weight: 500;
+        margin: 30px 0;
+      }
+      .sub input {
+        padding-left: 8px;
+        height: 35px;
+        width: 180px;
+        margin:0 10px;
+        outline:none;
+        border:none;
+        border-radius: 5px;
+      }
+      .sub button {
+        margin-top: 30px;
+        background-color: #f37474;
+        color: #fff;
+        outline:none;
+        border:none;
+        border-radius: 5px;
+        height: 35px;
+        width: 300px;
+        cursor: pointer;
+      }
+      .user-card {
+        padding:50px;
+        border-radius: 5px;
+        background: #fff;
+        width: 95%;
+        margin: 100px auto;
+      }
+      .user-card .user-info {
+        display: flex;
+        width: fit-content;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .user-card .user-info img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+      }
+      .user-card .user-info .name {
+        font-size: 22px;
+        font-weight: 500;
+        margin: 20px 0 30px 0;
+      }
+      .user-card .user-info .role{
+        font-size: 18px;
+      }
+      .user-card .skill p{
+        font-size: 20px;
+        font-weight: 500;
+        margin:30px 0;
+      }
+      .user-card ul {
+        list-style-type: none;
+      }
+      .user-card li {
+        display: inline-block;
+        font-size: 18px;
+        margin: 8px;
+        padding: 8px 12px;
+        font-weight: 500;
+        border-radius: 5px;
+        background: #2acfcf;
+        color:#fff
+      }
+      .user-card .date {
+        margin-top: 30px;
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+</html>
