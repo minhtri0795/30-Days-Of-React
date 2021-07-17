@@ -1,0 +1,8 @@
+1.What is higher order function
+-Hịght order function is function can call order function by paramater or return a function as value
+2.What is Higher Order Component
+-Hight order component is Component can take component and another Component.
+3.What is the difference between higher order function and higher order component?
+-Hight order function take a fumction and return another function, Hight order component (HOC) take component and return another component.
+4.A higher order component can allow us to ‎Nâng cao ‎a component. (T or F)
+-True
