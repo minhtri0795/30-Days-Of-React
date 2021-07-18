@@ -1,0 +1,10 @@
+1.What package do you use to implement routing in react?
+*react-router-dom
+2.What is the default export in react-router-dom?
+*Router
+3.What is the use of the following Components(Route, NavLink, Switch, Redirect, Prompt)
+* Route wrap component we want to routed
+*NavLink direct a link to Route.
+*Switch control switch between orther Route
+*Redirect navigation back to link we set.
+*Prompt turn on pop-up to people
