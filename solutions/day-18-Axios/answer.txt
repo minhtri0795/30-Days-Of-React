@@ -1,0 +1,12 @@
+What is HTTP request?
+-HTTP request is prototype to call URL.
+What are the most common HTTP requests?
+-JqueryHttp, Fecth, Axios,...
+What is fetch?
+-Fecth is method to get HTTP request
+What is axios?
+-Axios is third-party package to get HTTP request
+What is the difference between fetch and axios?
+-Axios has being  support  more than fecth.
+Do you prefer fetch to axios for make HTTP requests?
+-ofcourse
