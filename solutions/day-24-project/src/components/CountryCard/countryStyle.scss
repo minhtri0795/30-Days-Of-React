@@ -1,0 +1,31 @@
+.country-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  margin: 10px;
+  padding: 20px 0;
+  border-radius: 20px;
+  background: #ececec;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+  img {
+    width: 60%;
+  }
+  .name {
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .country-property {
+    strong,
+    p {
+      display: inline;
+    }
+    .capital,
+    .lang,
+    .population {
+      margin: 8px 0;
+      font-size: 18px;
+    }
+  }
+}
