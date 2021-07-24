@@ -4,6 +4,15 @@ function PopulaChart({worldData,filterData}) {
   const totalPopulation = worldData.reduce((acc,currenVal)=>{
     return acc+currenVal.population
   },0)
+  const filterDataSort = filterData.sort((a,b)=>{
+    return b.population - a.population
+  })
+  const chartDataRender = []
+  for (let i=0;i<10;++i){
+    if(filterDataSort[i]){
+      chartDataRender.push(filterDataSort[i])
+    }
+  }
   const rowLength = '800'
   return <div className="popula-chart">
       <ul>
@@ -14,7 +23,7 @@ function PopulaChart({worldData,filterData}) {
           </div>
           <span>{totalPopulation.toLocaleString('en-US')}</span>
         </li>
-        {filterData.map(country=>{
+        {chartDataRender.map(country=>{
           return (
             <li key={country.name}className= 'popula-row'>
               <strong>{country.name}: </strong>
@@ -28,5 +37,4 @@ function PopulaChart({worldData,filterData}) {
       </ul>
   </div>;
 }
-
 export default PopulaChart;
