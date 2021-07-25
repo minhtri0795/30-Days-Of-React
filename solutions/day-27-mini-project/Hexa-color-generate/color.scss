@@ -1,0 +1,39 @@
+.bg-block {
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  margin: 5px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 600;
+}
+.coppy-icon {
+  position: relative;
+  display: block;
+  margin-top: 8px;
+  &::before {
+    position: absolute;
+    display: none;
+    top: 10px;
+    left: 50px;
+    content: "Coppy";
+    padding: 10px 15px;
+    background-color: #f16f6f;
+    border-radius: 5px;
+  }
+  &:hover {
+    &::before {
+      display: block;
+    }
+  }
+  &.copied {
+    &::before {
+      content: "Copied";
+      color: green;
+      display: block;
+    }
+  }
+}
