@@ -1,0 +1,70 @@
+.post {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 2px solid #ccc;
+  margin: 10px 0;
+  .user-infor {
+    display: flex;
+    align-items: flex-end;
+    align-self: flex-start;
+    h3 {
+      font-size: 15px;
+    }
+    #user-icon {
+      border: 2px solid #3c3c3c;
+      border-radius: 50%;
+      width: 26px;
+      height: 26px;
+      margin-right: 6px;
+    }
+  }
+  .post-text {
+    width: 100%;
+    margin: 12px 0;
+    p {
+      text-align: left;
+    }
+  }
+  .post-detail {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .update-post {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    textarea {
+      height: 60px;
+      width: 80%;
+      resize: none;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 6px;
+      &:focus {
+        outline: none;
+      }
+    }
+    button {
+      height: 40px;
+      width: 60px;
+      border-radius: 5px;
+      margin-left: 10px;
+      background-color: #109de4;
+      color: #fff;
+      outline: none;
+      border: none;
+    }
+  }
+  svg {
+    height: 26px;
+    width: 26px;
+    margin: 0 4px;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+  box-sizing: border-box;
+  // transition: background-color 0.2s ease;
+  scroll-behavior: smooth;
+}
+ul {
+  list-style: none;
+}
+svg {
+  width: 3em;
+  height: 3em;
+}
+body {
+  background-color: #8cd1be;
+  color: rgb(60, 60, 60);
+}
+a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.country-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.view-chart {
+  text-align: center;
+  // display: block;
+  width: fit-content;
+  margin: 60px auto;
+  svg {
+    stroke: #ffa500;
+    stroke-width: 40;
+    fill: #ffa500;
+  }
+  span {
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+  }
+}
+.chart-btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  button {
+    font-size: 24px;
+    margin: 30px 10px;
+    padding: 8px 20px;
+    color: #333333;
+    background-color: #ffa500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    &:hover {
+      background-color: #ffb429;
+    }
+  }
+}
+.chart-title {
+  font-size: 28px;
+  font-weight: 600;
+  color: #333333;
+  width: 100%;
+  text-align: center;
+}
+.color-wrap {
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.generator-number {
+  margin: 30px auto 50px;
+  display: flex;
+  justify-content: center;
+  input {
+    height: 40px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    padding: 0 8px;
+    border-radius: 5px;
+  }
+  button {
+    height: 40px;
+    width: 160px;
+    background: orange;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 10px;
+    border-radius: 5px;
+  }
+}
+.App {
+  margin: 20px auto;
+}
+.post-list {
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.home {
+  margin: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  input {
+    margin: 10px;
+    height: 40px;
+    width: 220px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    padding: 6px;
+  }
+  button {
+    height: 40px;
+    width: 80px;
+    background-color: orange;
+    color: #fff;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-bottom: 20px;
+  }
+}

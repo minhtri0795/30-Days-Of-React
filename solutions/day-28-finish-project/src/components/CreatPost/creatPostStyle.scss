@@ -1,0 +1,23 @@
+.creat-post {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  input,
+  button {
+    height: 40px;
+    width: 200px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  input {
+    padding: 0 6px;
+  }
+  button {
+    width: 100px;
+    margin-left: 10px;
+    background-color: rgb(98, 98, 241);
+    color: white;
+  }
+}
